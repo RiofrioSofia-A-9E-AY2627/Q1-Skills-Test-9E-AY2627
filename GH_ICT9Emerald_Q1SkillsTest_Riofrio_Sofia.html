@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Form</title>
+    <style type="text/css">
+        .body{
+            
+            background-image: 
+            url(https://img.magnific.com/free-vector/3d-style-black-background-with-paper-layer_206725-669.jpg?semt=ais_hybrid&w=740&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .form-body{
+            height: 900px;
+            width: 550px;
+            background-color: rgb(74, 97, 124);
+            margin: 0 auto;
+            margin-top: 50px;
+            border-radius: 30px;
+            display: flow-root;
+        }
+
+        .ob-logo{
+            height: 100px;
+            width: 100px;
+            display: block; margin: 0 auto; margin-top: 15px;
+            border-radius: 30px;
+        }
+        .form-header{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-family: 'Trebuchet MS';
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+        .form-text{
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Trebuchet MS';
+        }
+
+        .input-header{
+            font-family: 'Trebuchet MS';
+            margin-left: 27px;
+        }
+
+        .input{
+            font-family: 'Trebuchet MS';
+            width: 90%;
+            height: 5%;
+            display: block;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .dropdown{
+            font-family: 'Trebuchet MS';
+            width: 90%;
+            height: 5%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .checkboxs{
+            font-family: 'Trebuchet MS';
+            width: 90%;
+            height: 5%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .check{
+            font-family: 'Trebuchet MS';
+            width: 90%;
+            display: flex;
+            margin: 0 auto;
+            margin: -28px auto;
+            padding: 8px 12px;
+        }
+
+        .telling{
+            font-family: 'Trebuchet MS';
+            width: 90%;
+            height: 5%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 15px;
+            box-sizing: border-box;
+        }
+
+        .explain{
+            width: 90%;
+            height: 10%;
+            display: block;
+            margin: 0 auto;
+            margin-top: -23px;
+            box-sizing: border-box;
+        }
+
+        .paragraph{
+            color: rgb(255, 255, 255);
+            font-family: 'Trebuchet MS';
+            text-align: center;
+            color: rgb(255, 255, 255);
+             font-size: large;
+        }
+
+        .bullets{
+            color: rgb(255, 255, 255);
+            font-family: 'Trebuchet MS';
+            text-align: left;
+        }
+
+        .submit{
+            font-family: 'Trebuchet MS';
+            display: block;
+            margin: 0 auto;
+            background-color: rgb(255, 255, 255);
+            color: white;
+            border-radius: 20px;
+            height: 50px;
+            width: 150px;
+            font-weight: bold;
+            font-size: small;
+        }
+
+    </style>
+</head>
+
+<body class="body">
+
+    <form>
+    <div class="form-body">
+
+        <img src=
+        "https://files.orangeapps.ph/disk001/School_Files/1/school-66/school_profile/1724046763-1128.png"
+        class="ob-logo">
+
+        <h1 class="form-header">
+            OBMC Robotics Club<br>
+            Application Form
+        </h1>
+
+        <p class="form-text">
+        Welcome! Please fill out this form to apply for our school's
+        Robotics Club.
+        </p>
+
+         <label for="name" class="input-header">Full Name:<br></label>
+      <input type="text" id="name" placeholder="Enter your name" class="input">
+
+      <br>
+
+      <label for="name" class="input-header">Email:<br></label>
+      <input type="text" id="name" placeholder="Enter your school email" class="input">
+
+      <br>
+
+      <label for="dropdown" class="input-header">Grade:<br></label>
+      <select class="dropdown">
+     <option value="grade7">Grade 7</option>
+     <option value="grade8">Grade 8</option>
+     <option value="grade9">Grade 9</option>
+     <option value="grade10">Grade 10</option>
+     </select>
+
+     <br>
+
+    <label class="checkboxs">What are your skills?</label>
+    <div class="check">
+    <input type="checkbox" value="code"> Coding
+    <input type="checkbox" value="design"> Designing
+    <input type="checkbox" value="electronics"> Electronics
+    </div>
+
+    <br>
+
+    <label for="name" class="telling">Tell us why you want to join?<br></label>
+    <input type="text" id="name" class="explain">
+
+    <br>
+
+    <p class="paragraph">
+        Top Robotics Activities We Offer:
+    </p>
+
+        <ul class="bullets">
+        <li>Line Following Robots<br></li>
+        <li>Obstacle Avoidance Programming<br></li>
+        <li>Light Following Robot</li>
+        </ul>
+
+        <button type="submit" class="submit">
+        Submit Application
+        </button>
+
+</div>
+    </form>
+    
+</body>
+</html>
